@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    --bg-background: #040924;
+    --bg-light: #FFFFFF;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+   
+}
