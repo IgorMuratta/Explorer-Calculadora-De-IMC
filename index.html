@@ -7,13 +7,44 @@
 
     <link rel="stylesheet" href="./css/styles.css">
 
+    <script src="./js/script.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <div class="alert active-alert">
+        <p>Digite somente números</p>
+    </div>
+
+    <main class="card">
+        <form>
+            <fieldset>
+                <legend>Cálculo de IMC</legend>
+            </fieldset>
+
+            <div class="input-wrapper">
+                <label for="peso">Peso (KG)</label>
+                <input type="text" id="peso">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="altura">Altura (m)</label>
+                <input type="text" id="altura">
+            </div>
+
+            <div class="input-wrapper">
+                <button>
+                    Calcular IMC
+                    <img src="./assets/arrow-up-right.png" alt="">
+                </button>
+            </div>
+
+
+        </form>
+    </main>
    
-   
-    <script src="./js/app.js"></script>
 </body>
 </html>
