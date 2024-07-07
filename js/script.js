@@ -1,8 +1,8 @@
-let weight = document.querySelector("#peso");   // Peso
-let height = document.querySelector("#altura"); // Altura
+let weight = document.querySelector("#peso").value;   // Peso
+let height = document.querySelector("#altura").value; // Altura
 
 
-addEventListener("click", (event) =>{
+addEventListener("click", (event,) =>{
     event.preventDefault();
-
 })
+
