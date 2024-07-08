@@ -66,7 +66,7 @@ fieldset legend{
     color: #00453A;
 }
 
-.input-wrapper input, .input-wrapper input::placeholder{
+.input-wrapper input{
     width: 100%;
 
     font-weight: bold;
@@ -142,6 +142,8 @@ fieldset legend{
 .card-result{
     position: relative;
 
+    text-align: center;
+    
     width: 36.3rem;
     padding: 4.8rem 6.4rem 6.4rem;
 }
@@ -185,6 +187,13 @@ fieldset legend{
     font-size: 1.6rem;
     line-height: 2rem;
     font-weight: bold;
+    animation: topBottom 1s;
+}
+
+@keyframes topBottom {
+    0%{
+        top: -100px;
+    }
 }
 
 .open{
